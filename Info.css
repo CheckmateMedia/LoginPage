@@ -1,0 +1,21 @@
+body {
+    background-image: linear-gradient( rgb(0, 217, 255), rgb(0, 68, 255));
+    color: gold;
+}
+
+table {
+    text-align: center;
+    margin-left: 42%;
+    margin-top: 5%;
+}
+
+a {
+    color: gold;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#write {
+    font-size: 2.5em;
+    font-weight: bold;
+}

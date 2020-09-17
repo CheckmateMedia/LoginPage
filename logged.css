@@ -1,0 +1,33 @@
+img {
+    height: 6em;
+    margin-left: 9%;
+}
+
+body {
+    background-image: linear-gradient( rgb(0, 217, 255), rgb(0, 68, 255));
+    margin-left: 47%;
+    margin-top: 5%;
+    color: gold;
+}
+
+a {
+    color: gold;
+}
+
+#signUp {
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+#signUpText {
+    font-size: 2em;
+    margin-left: 7%;
+}
+
+#moo {
+    font-size: 3.5em;
+}
+
+#click {
+    margin-left: 5em;
+}

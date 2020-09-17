@@ -1,0 +1,72 @@
+<! !DOCTYPE html>
+    <html>
+
+    <body>
+        <div id="sign"><b>Sign Up</b></div>
+        <!--
+        action="connection.php" method="POST" onsubmit="submit()"
+    -->
+        <form id="myForm" onsubmit="reload();">
+            <table>
+                <!-- Row 1 -->
+                <tr>
+                    <td>
+                        <label for=" firstName"><b>First Name:</b></label>
+                    </td>
+                    <td>
+                        <input type="text" name="firstName" id="firstname" required>
+                    </td>
+                </tr>
+                <!-- Row 2 -->
+                <tr>
+                    <td>
+                        <label for="LastName"><b>Last Name:</b></label>
+                    </td>
+                    <td>
+                        <input type="text" name="lastName" id="lastname" required>
+                    </td>
+                </tr>
+                <!-- Row 3 -->
+                <tr>
+                    <td>
+                        <label for="email"><b>Email:</b></label>
+                    </td>
+                    <td>
+                        <input id="email" type="text" name="email" id="email" required>
+                    </td>
+                </tr>
+                <!-- Row 4 -->
+                <tr>
+                    <td>
+                        <label for="username"><b>Username:</b></label>
+                    </td>
+                    <td>
+                        <input type="text" name="username" id="username" required>
+                    </td>
+                </tr>
+                <!-- Row 5 -->
+                <tr>
+                    <td>
+                        <label for=" password"><b>Password:</b></label>
+                    </td>
+                    <td>
+                        <input id="password" type="password" name="password" id="password" required>
+                    </td>
+                </tr>
+            </table>
+            <!--<input type="submit" id="submit">-->
+        </form>
+        <div id="buttons">
+            <button class="button" class="submit" onclick="myFunction();">Submit</button>
+        </div>
+        <div id="menu">
+            <a href="Info.html">Info</a>
+            <a href="logged.html">Account</a>
+        </div>
+    </body>
+    <link rel="stylesheet" href="/Users/matt/Desktop/websites/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="Index.css">
+    <script src="index.js"></script>
+
+
+    </html>
